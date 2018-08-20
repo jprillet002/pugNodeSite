@@ -1,0 +1,29 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+/* when user hovers over drop down menu, show the menu */
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+/* define the custom background color for navbar */
+.navbar-theme {
+  background-color: #ED1D24;
+}
+.subNavbar-theme {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #f6f6f6;
+}
+/* define custom background color for footer */
+.footer-theme {
+  background-color: #f6f6f6;
+}

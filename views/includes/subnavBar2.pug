@@ -1,0 +1,21 @@
+.container-fluid
+    nav.navbar.navbar-expand-lg.sub-navbar.navbar-light.fixed-subNav.subNavbar-theme(id="Patient" )
+        .container-fluid
+            ul.nav.navbar-nav.navbar-center
+                li.nav-item(class=( title == 'Subpage 2-1')?"active":"")
+                    a.nav-link(href="/page21")
+                        i.fa.fa-fw.fa-plus
+                        span.nav-link-text
+                            | Subpage 2-1
+                li.nav-item(class=( title == 'Subpage 2-2' )?"active":"")
+                    a.nav-link(href="/page22")
+                        i.fa.fa-fw.fa-tasks
+                        span.nav-link-text
+                            | Subpage 2-2
+            ul.nav.navbar-nav.navbar-right
+                .input-group
+                    .input-group-prepend
+                        .input-group-text ExampleForm
+                    select.form-control(id="personSelect")
+                        option Joe
+                        option John

@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title= title
+    //- Required meta tags for bootstrap.
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    //- Jquery needed before bootstrap javascript.
+    script(language="javascript" src = "jquery.min.js")
+    //- Popper.js could be added here if needed
+    script(language="javascript" src = "popper.min.js")
+    //- Bootstrap
+    script(language="javascript" src = "js/bootstrap.min.js")
+    link(rel="stylesheet" href="css/bootstrap.min.css")
+    //- Fontawesome Icons
+    link(href='css/font-awesome.min.css', rel='stylesheet', type='text/css')
+    //- Custom additions to the style.
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    .container-fluid
+      include includes/navbar.pug
+      block content
+    include includes/footer.pug
